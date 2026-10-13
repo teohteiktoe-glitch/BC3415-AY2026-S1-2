@@ -1,11 +1,13 @@
 #dbs prediction v2
 
+
 from flask import Flask, render_template, request
 import joblib
 from groq import Groq
 import os
 
 #delete this line before syn
+#deleted
 
 model = Groq()
 modelPKL = joblib.load("dbs.pkl")
